@@ -1,0 +1,33 @@
+[
+    {
+        "event_type": "submission",
+        "content_id": "97d12bed-57fe-401f-b19b-7a3da3f450d8",
+        "creator_id": "test-user-1",
+        "timestamp": "2026-07-01T01:21:47.774983Z",
+        "attribution": "likely_ai",
+        "confidence": 0.7,
+        "llm_score": 0.8,
+        "stylometric_score": 0.55,
+        "status": "classified",
+        "label": "Likely AI-generated: Our system found strong evidence that this content may have been generated using AI. Confidence: 70%. Creators may appeal this decision if they believe it is incorrect."
+    },
+    {
+        "event_type": "submission",
+        "content_id": "6fdeb83b-0ed4-4c42-8169-bb52d51df6d0",
+        "creator_id": "test-user-2",
+        "timestamp": "2026-07-01T01:22:31.910848Z",
+        "attribution": "likely_human",
+        "confidence": 0.16,
+        "llm_score": 0.0,
+        "stylometric_score": 0.4,
+        "status": "under_review",
+        "label": "Likely human-written: Our system found strong evidence that this content was written by a person. Confidence: 16%."
+    },
+    {
+        "event_type": "appeal",
+        "content_id": "6fdeb83b-0ed4-4c42-8169-bb52d51df6d0",
+        "timestamp": "2026-07-01T01:43:58.292785Z",
+        "status": "under_review",
+        "appeal_reasoning": "I wrote this myself from personal experience."
+    }
+]
